@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_x1q.mk
+    $(LOCAL_DIR)/lineage_a71n.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_x1q-eng \
-    lineage_x1q-userdebug \
-    lineage_x1q-user
+    lineage_a71n-eng \
+    lineage_a71n-userdebug \
+    lineage_a71n-user
