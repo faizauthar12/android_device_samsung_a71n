@@ -5,10 +5,10 @@
 set -e
 
 # Required!
-export DEVICE=x1q
-export DEVICE_COMMON=sm8250-common
+export DEVICE=a71n
+export DEVICE_COMMON=sm7150-common
 export VENDOR=samsung
 
 export DEVICE_BRINGUP_YEAR=2020
 
-"./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
+source "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
